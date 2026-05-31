@@ -115,3 +115,4 @@ Open `http://localhost:5173`, create a room, and open a second tab to test colla
 
 ---
 
+**Live demo:** https://codesync-client-qxpi.onrender.com
