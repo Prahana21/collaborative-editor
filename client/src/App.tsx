@@ -3,7 +3,7 @@ import Editor, { type OnMount } from "@monaco-editor/react";
 import { io, Socket } from "socket.io-client";
 import * as Y from "yjs";
 import { MonacoBinding } from "y-monaco";
-const socket: Socket = io("http://localhost:3001", {
+const socket: Socket = io("https://codesync-server-o3km.onrender.com", {
   autoConnect: false,
   reconnection: true,
   reconnectionAttempts: 5,
